@@ -1,6 +1,8 @@
 body, h1, p {
     margin: 0;
     background-color: rgb(249, 250, 248);
+    font-family: 'Noto Sans KR', sans-serif;
+    
 }
 
 h1 {
