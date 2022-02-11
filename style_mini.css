@@ -1,0 +1,48 @@
+/* User Agent Stylesheet Reset */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a3a3a3;
+    background-image: url("images/pattern.png");
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.bookcover {
+    position: relative;
+    margin: 100px auto;
+    width: 960px;
+    height: 660px;
+    border: 1px solid #718287;
+    background-color: #b0d1dc;
+    border-radius: 10px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.bookdot {
+    position: absolute;
+    margin: auto;
+    top: 15px;
+    left: 15px;
+    width: 930px;
+    height: 630px;
+    border: dashed 2px white;
+    border-radius: 10px;
+}
+
+.page {
+    position: absolute;
+    margin: auto;
+    top: 10px;
+    left: 10px;
+    width: 910px;
+    height: 610px;
+    border-radius: 10px;
+    background-color: white;
+}
