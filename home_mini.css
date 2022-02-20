@@ -136,10 +136,6 @@ body {
     font-size: 14px;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
 .dropdown:hover .dropdown_content {
     display: block;
 }
@@ -147,6 +143,10 @@ body {
 .dropdown:hover .dropdown_button {
     background-color: #486278;
     color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
 }
 
 .status {
@@ -207,4 +207,20 @@ img {
 .button:hover {
     background-color: #486278;
     color: white;
+}
+
+.button_select {
+    width: 72px;
+    height: 35px;
+    margin: 2px 0;
+    border-radius: 0 7px 7px 0;
+    border: #19586e solid 1px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.button_select a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
 }

@@ -28,6 +28,7 @@
     border-radius: 10px;
     background-color: white;
     padding: 20px;
+    overflow: auto;
 }
 
 .contents_box_container {
@@ -119,4 +120,32 @@ hr {
     padding-left: 2px;
     margin-right: 3px;
     letter-spacing: 0.2px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.photo_title {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.photo_box {
+    margin-top: 10px;
+}
+
+.hr_phototitle {
+    border-top: 1px solid #cbcbcb;
+    margin: 0;
+}
+
+.photo_contents {
+    padding: 20px;
+    font-size: 15px;
 }
