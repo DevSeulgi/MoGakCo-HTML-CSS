@@ -1,0 +1,87 @@
+p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 0 3.5px;
+}
+
+span {
+    padding: 3px 5px;
+}
+
+/* Typography
+:root {
+    font-size: 62.5%; /* 16px > 10px */
+    /* 사용자가 브라우저에서 크기를 바꿀 경우를 생각해서 %로 지정
+  } */
+
+/* Colors */
+:root {
+    --primary-color: #00969d;
+    --secondary-color: #486278;
+    --light-color: #769ee1;
+    --background-color: #f0f0f0;
+    --primary-border: #d5d5d5;
+    --secondary-border: #e7e7e7;
+}
+
+/*
+body {
+    font-size: 1.4rem; /* 14px 브라우저 설정을 바꾸면 바뀔 수 있음
+}
+*/
+
+.calender {
+    border: 1px solid var(--secondary-border);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+}
+
+.calender_today {
+    flex: 0.1;
+    text-align: center;
+    border-right: 1px dashed var(--primary-border);
+    padding: 0 15px 0 5px;
+    margin-right: 20px;
+}
+
+.calender_today h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.calender_today p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--primary-border);
+}
+
+.calender_date {
+    flex: 1;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+    
+}
+
+.date_today {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.holiday {
+    color: orangered;
+    font-weight: bold;
+}
+
+.day_notification {
+    color: var(--primary-border);
+    padding: 10px 0;
+    font-size: 1rem;
+}
