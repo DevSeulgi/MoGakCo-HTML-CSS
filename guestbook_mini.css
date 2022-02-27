@@ -1,0 +1,44 @@
+.guestbook_title {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.guestbook_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 40px 0;
+}
+
+.guestbook_profile {
+    background-image: url("./images_mini/gif.gif");
+    background-size: cover;
+    flex: 1;
+    
+}
+
+.background-1 {
+    background-image: url("./images_mini/man.jpeg");
+}
+
+.background-2 {
+    background-image: url("./images_mini/girl.png");
+}
+
+.background-3 {
+    background-image: url("./images_mini/sickgirl.png");
+}
+
+.guestbook_profile > img {
+    width: 100%;
+}
+
+.guestbook_contents {
+    display: inline;
+    flex: 2;
+    margin: 0 20px;
+    font-size: 15px;
+}
