@@ -49,6 +49,7 @@ body {
     align-items: center;
     justify-items: center;
     padding: 10px;
+    
 }
 
 .calender_today {
@@ -110,6 +111,7 @@ body {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
+    overflow: auto;
 }
 
 
